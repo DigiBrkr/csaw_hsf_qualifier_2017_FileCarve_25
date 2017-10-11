@@ -12,6 +12,7 @@ In the same directory as the original file `foremost` will create a directory ca
 directory by typing
 `# cd output`.
 Then we do an `ls` to see the contents of this directory.
+```
 # ls
 audit.txt  pdf  png  zip
 ```
