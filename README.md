@@ -6,9 +6,10 @@
 
 We know that Herbert was deleting files from the image so we need to use a tool to recover deleted files.
 The tool to do that is called `foremost` originally created by the U.S. Air Force (now in the public domain).  
+
 To recover the data we type the following commands:
 
-`# foremost fat.fs` ignore the junk it puts in your terminal window, for the purposes of this challenge it is irrelevant.
+`# foremost fat.fs`. Ignore the junk it puts in your terminal window, for the purposes of this challenge it is irrelevant.
 In the same directory as the original file `foremost` will create a directory called `output`. `cd` into this directory.
 ```
 # ls
