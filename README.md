@@ -10,7 +10,10 @@ The tool to do that is called `foremost` originally created by the U.S. Air Forc
 To recover the data we type the following commands:
 
 `# foremost fat.fs`. Ignore the junk it puts in your terminal window, for the purposes of this challenge it is irrelevant.
-In the same directory as the original file `foremost` will create a directory called `output`. `cd` into this directory.
+In the same directory as the original file `foremost` will create a directory called `output`. Next, `cd` into this
+directory.
+`# cd output`
+Then we do an `ls` to see the contents of this directory. 
 ```
 # ls
 audit.txt  pdf  png  zip
